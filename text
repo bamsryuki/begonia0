@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="bams"
+           fetch="https://github.com/bamsryuki" />
+
+<remote name="bego"
+           fetch="https://github.com/begonia-dev" />
+
+<remote name="TTTT555"
+           fetch="https://github.com/TTTT555" />
+
+ <!-- prebuilts -->
+ <project path="vendor/ANXCamera" name="vendor_ANXCamera-1" remote="TTTT555" revision="11" />
+ <project path="vendor/dirac" name="dirac" remote="TTTT555" revision="master" />
+
+ <!-- Trees -->
+ <project path="device/xiaomi/begonia" name="begonia1" remote="bams" revision="12" />
+ <project path="vendor/xiaomi/begonia" name="begonia2" remote="ryuKizuha" revision="12" />
+ <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="bego" revision="12.1" />
+ <project path="device/mediatek/sepolicy" name="begonia3" remote="bams" revision="12" />
+ <project path="vendor/xiaomi/begonia-ims" name="begonia4" remote="bams" revision="12" />
+</
