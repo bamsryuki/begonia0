@@ -16,7 +16,7 @@
 
  <!-- Trees -->
  <project path="device/xiaomi/begonia" name="begonia1" remote="bams" revision="12" />
- <project path="vendor/xiaomi/begonia" name="begonia2" remote="ryuKizuha" revision="12" />
+ <project path="vendor/xiaomi/begonia" name="begonia2" remote="bams" revision="12" />
  <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="bego" revision="12.1" />
  <project path="device/mediatek/sepolicy" name="begonia3" remote="bams" revision="12" />
  <project path="vendor/xiaomi/begonia-ims" name="begonia4" remote="bams" revision="12" />
